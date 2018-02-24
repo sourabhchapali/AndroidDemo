@@ -1,0 +1,22 @@
+1. Verify that user is able to login with valid username and password
+
+2. Verify that user is not able to login with invalid username and password
+
+3. Verify that validation message gets displayed in case user leaves username or password field as blank
+
+4. Verify that validation message is displayed in case user exceeds the character limit of the user name and password fields
+
+5. Verify that the password is in encrypted form when entered
+
+6. Verify that once logged in, clicking back button doesn't logout user
+
+7. Verify if SQL Injection attacks works on login page
+
+
+
+
+
+
+
+
+

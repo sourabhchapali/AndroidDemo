@@ -1,0 +1,28 @@
+1. It would be good to provide forgot password functionality on the login page
+
+2. It would be good to provide context based error messages
+    Username entered , Password not entered (message "Please enter the password")
+    Username not entered , Password entered (message "Please enter the username")
+    Username not entered , Password not entered (message "Username or Password cannot be blank")
+    Valid Username , Invalid Password (message "Incorrect Username or Password")
+    Invalid Username , Valid Password (message "Incorrect Username or Password")
+
+3. It would be good to have reset button to clear field's text
+
+4. It would be good to have checkbox with label "remember password" in the login page
+
+5. It would be good to provide password mandate to accept password which has 1 number , 1 special character while registration
+
+6. It would be good to have lower bound limit on length of password(6 or more characters)
+
+7. It would be good if call button calls the driver instead of opening the dial pad with driver's number, so that when call ends user can land on the app.
+
+8. It would be good to have a sign up functionality for unregistered users on login page
+
+9. In driver profile page , its not easy to identify what details are provided.
+   Assuming those are address and joining date of driver, It would be good to provide text that explains what details are these.
+
+
+
+
+
