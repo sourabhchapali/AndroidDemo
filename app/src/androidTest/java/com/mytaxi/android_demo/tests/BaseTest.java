@@ -32,7 +32,7 @@ public class BaseTest
     public static void idle()
     {
         try {
-            Thread.sleep(2500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
