@@ -23,19 +23,6 @@ jobs:
       - run:
           name: Run Tests
           command: ./gradlew lint test
-      - run:
-          name: Setup emulator
-          command: sdkmanager "system-images;android-22;default;armeabi-v7a" && echo "no" | avdmanager create avd -n test -k "system-images;android-22;default;armeabi-v7a"
-      - run:
-          name: Launch emulator
-           - Start Android Studio
-           - Select menu "Tools > Android > SDK Manager"
-           - Click "SDK Tools" tab
-           - Check "Android Emulator" checkbox
-           - Click "OK"
-      - run:
-          name: Run Tests
-          command: ./gradlew :mobileValidLoginCallDriverTest
       - store_artifacts:
           path: app/build/reports
           destination: reports
